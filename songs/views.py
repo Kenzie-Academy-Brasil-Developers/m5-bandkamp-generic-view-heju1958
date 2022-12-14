@@ -1,6 +1,4 @@
 from .models import Song
-
-# from albums.models import Album
 from .serializers import SongSerializer
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
